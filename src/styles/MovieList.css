@@ -1,0 +1,26 @@
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-container .card {
+  margin: 3rem;
+  width: 30%;
+  text-align: justify;
+}
+
+.list-container .card-body {
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

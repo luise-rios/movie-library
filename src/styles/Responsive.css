@@ -1,0 +1,62 @@
+@media screen and (max-width: 1400px) {
+  .list-container .card {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .list-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .list-container .card {
+    width: 80%
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .details-container .card {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .movie-list {
+    padding: 1rem;
+  }
+
+  .list-container .card {
+      margin: 0;
+      margin-top: 1rem;
+      width: 100%
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .details-container {
+    padding: 1rem;
+  }
+
+  .details-container .card {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .edit-container {
+    padding: 1rem;
+  }
+
+  .edit-container .form {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+
+}
