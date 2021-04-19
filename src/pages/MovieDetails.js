@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import * as movieAPI from '../services/movieAPI';
-import { Loading, MovieForm } from '../components';
+import { Loading } from '../components';
 import MovieDetailsCard from '../components/MovieDetailsCard';
 
 

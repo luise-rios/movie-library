@@ -17,14 +17,14 @@ html {
 }
 
 body {
-  background: linear-gradient(rgba(32, 32, 32, 0.4), rgba(0,0,0,.40)100%), url('../img/theater-551797.jpg');
+  background: linear-gradient(rgba(32, 32, 32, 0.4), rgba(0,0,0,.40)100%), url('https://luise-rios.github.io/movie-library/theater.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   color: var(--font-color);
   font-family: 'Marmelad', sans-serif;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
 }
 
 h1 {
