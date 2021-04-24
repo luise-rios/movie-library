@@ -30,9 +30,9 @@ class MovieDetailsCard extends React.Component {
           </Card.Text>
         </Card.Body>
           <ButtonGroup>
-            <Button variant="warning" href={`/movies/${id}/edit`}>EDIT</Button>
-            <Button variant="warning" href="/">GO BACK</Button>
-            <Button variant="warning" href="/" onClick={this.deleteMovie}>DELETE</Button>
+            <Button variant="warning" href={`/movie-library/movies/${id}/edit`}>EDIT</Button>
+            <Button variant="warning" href="/movie-library/">GO BACK</Button>
+            <Button variant="warning" href="/movie-library/" onClick={this.deleteMovie}>DELETE</Button>
           </ButtonGroup>
       </Card>
     );

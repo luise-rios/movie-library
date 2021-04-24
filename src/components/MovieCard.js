@@ -12,7 +12,7 @@ class MovieCard extends React.Component {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{storyline}</Card.Text>
-          <Button href={`/movies/${id}`} variant="warning" block>DETAILS</Button>
+          <Button href={`/movie-library/movies/${id}`} variant="warning" block>DETAILS</Button>
         </Card.Body>
       </Card>
     );

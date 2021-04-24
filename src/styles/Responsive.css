@@ -12,7 +12,8 @@
   }
 
   .list-container .card {
-    width: 80%
+    width: 80%;
+    margin-bottom: 1rem;
   }
 
   h1 {

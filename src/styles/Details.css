@@ -1,5 +1,5 @@
 .details-container {
-  background: linear-gradient(rgba(32, 32, 32, 0.4), rgba(0,0,0,.40)100%), url('https://luise-rios.github.io/movie-library/theater.jpg');
+  background: linear-gradient(rgba(32, 32, 32, 0.4), rgba(0,0,0,.40)100%), url('../img/theater.jpg');
   background-size: 100% 100%;
   color: var(--light);
   display: flex;
