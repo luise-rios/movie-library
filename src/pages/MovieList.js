@@ -39,7 +39,7 @@ class MovieList extends Component {
         <div className="list-container" >
           {movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
         </div>
-        <Button href="/movies/new" variant="warning" size="lg">ADD A NEW CARD</Button>
+        <Button href="/movie-library/new" variant="warning" size="lg">ADD A NEW CARD</Button>
       </div>
     );
   }

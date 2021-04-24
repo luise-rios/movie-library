@@ -21,9 +21,9 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/movie-library/movies/:id/edit" component={EditMovie} />
-          <Route path="/movie-library/movies/new" component={NewMovie} />
-          <Route path="/movie-library/movies/:id" component={MovieDetails} />
+          <Route path="/movie-library/:id/edit" component={EditMovie} />
+          <Route path="/movie-library/new" component={NewMovie} />
+          <Route path="/movie-library/:id" component={MovieDetails} />
           <Route exact path="/movie-library" component={MovieList} />
           <Route component={NotFound} />
         </Switch>
