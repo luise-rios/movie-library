@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
 import * as movieAPI from '../services/movieAPI';
-import { Loading } from '../components';
-import MovieDetailsCard from '../components/MovieDetailsCard';
-
+import { Loading, MovieDetailsCard } from '../components';
 
 class MovieDetails extends Component {
   constructor() {

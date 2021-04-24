@@ -6,14 +6,15 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  height: 100%;
+  height: 100vh;
 }
 
 .details-container .card {
   background: var(--light);
   color: var(--font-color);
   margin-top: 3rem;
-  width: 50%;
+  max-width: 40%;
+  max-height: 90%;
 }
 
 .details-container .btn-group {

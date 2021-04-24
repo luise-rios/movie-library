@@ -2,3 +2,5 @@
 
 Projeto desenvolvido no bloco 13 do curso de desenvolvimento da Trybe, em novembro de 2020, utilizando React.
 
+Estilizado com ajuda do Bootstrap.
+

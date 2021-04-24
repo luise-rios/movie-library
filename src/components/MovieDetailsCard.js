@@ -19,7 +19,7 @@ class MovieDetailsCard extends React.Component {
 
     return (
       <Card data-testid="movie-details">
-        <Card.Img variant="top" alt="Movie Cover" src={`../${imagePath}`} />
+        <Card.Img variant="top" alt={title} src={imagePath} />
         <Card.Body>
           <Card.Title>{`Title: ${title}`}</Card.Title>
           <Card.Text>
